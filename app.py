@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open('trained_model.pkl', 'rb') as model_file:
+with open('final_trained_model.pkl', 'rb') as model_file:
     trained_model = pickle.load(model_file)
 
 st.title('Titanic Survival Prediction')
